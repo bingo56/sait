@@ -2,7 +2,7 @@
 
 body {
   margin: 0;
-  background-image: url(https://1.bp.blogspot.com/-nh6VtV4dkC8/W17fx5ngCII/AAAAAAAAcAQ/AZhEQ9tc4BwVwoIZYs0Us0vvJwLihifFACLcBGAs/s1600/shutterstock_223313131.jpg);
+  background-image: url(https://html5book.ru/wp-content/uploads/2017/03/dulcineia-dias-195000.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ nav a {
 .topmenu > li > a {
   position: relative;
   padding: 10px 15px;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Kaushan Script', cursive;
   font-size: 1.5em;
   line-height: 1;
   letter-spacing: 3px;
