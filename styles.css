@@ -1,16 +1,20 @@
-п»їli{
+li{
    text-decoration: none;
    list-style: none;
 }
-
 body {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  background-image: url(https://1.bp.blogspot.com/-nh6VtV4dkC8/W17fx5ngCII/AAAAAAAAcAQ/AZhEQ9tc4BwVwoIZYs0Us0vvJwLihifFACLcBGAs/s1600/shutterstock_223313131.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
 }
-
 
 body:before 
 {
+	
   content: "";
   position: absolute;
   left: 0;
@@ -22,7 +26,7 @@ body:before
 
 
 .mainBody{
-	background-image: url(../images/background1.png);
+	background-image: url(background1.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -30,7 +34,7 @@ body:before
 	position: relative;
 }
 /****************************************/
-/*РіРѕСЂРёР·РѕРЅС‚Р°Р»СЊРЅРѕРµ РјРµРЅСЋ*/
+/*горизонтальное меню*/
 /***************************************/
 
 nav 

@@ -2,12 +2,8 @@
 
 body {
   margin: 0;
- background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-}
+  background-image: url(https://1.bp.blogspot.com/-nh6VtV4dkC8/W17fx5ngCII/AAAAAAAAcAQ/AZhEQ9tc4BwVwoIZYs0Us0vvJwLihifFACLcBGAs/s1600/shutterstock_223313131.jpg);}
+
 body:before {
   content: "";
   position: absolute;
@@ -22,25 +18,25 @@ body:before {
 /*горизонтальное меню*/
 /***************************************/
 
-nav {
+navigat {
   text-align: center;
   padding: 40px 0 0;
 }
-nav ul {
+navigat ull {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-nav a {
+navigat aa {
   text-decoration: none;
   display: block;
   color: #222;
 }
-.topmenu > li {
+.topmenu > lii {
   display: inline-block;
   position: relative;
 }
-.topmenu > li > a {
+.topmenu > lii > aa {
   position: relative;
   padding: 10px 15px;
   font-family: 'Gloria Hallelujah', cursive;
@@ -48,7 +44,7 @@ nav a {
   line-height: 1;
   letter-spacing: 3px;
 }
-.topmenu > li > a:before {
+.topmenu > lii > aa:before {
   content: "";
   position: absolute;
   z-index: 5;
@@ -62,7 +58,7 @@ nav a {
   opacity: 0;
   transition: .3s;
 }
-.topmenu li:hover a:before {
+.topmenu lii:hover aa:before {
   transform: translate(-50%, 0);
   opacity: 1;
 }
@@ -83,16 +79,81 @@ nav a {
   transform: translate(-50%, 20px);
   transition: .3s;
 }
-.topmenu > li:hover .submenu {
+.topmenu > lii:hover .submenu {
   visibility: visible;
   opacity: 1;
   transform: translate(-50%, 0);
 }
-.submenu a {
+.submenu aa {
   font-family: 'Libre Baskerville', serif;
   font-size: 18px;
   letter-spacing: 1px;
   padding: 5px 10px;
   transition: .3s linear;
 }
-.submenu a:hover {background: #e8e8e8;}
+.submenu aa:hover {background: #e8e8e8;}
+
+razion {
+  text-align: center;
+  padding: 40px 0 0;
+}
+razion  ull {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+razion  aa {
+  text-decoration: none;
+  display: block;
+  color: #222;
+}
+.topraz > lii {
+  display: inline-block;
+  position: relative;
+}
+.topraz > lii > aa {
+  position: relative;
+  padding: 10px 15px;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 1.5em;
+  line-height: 1;
+  letter-spacing: 3px;
+}
+.topraz lii:hover aa:before {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+.subraz {
+  position: absolute;
+  z-index: 4;
+  left: 50%;
+  top: 100%;
+  width: 150px;
+  padding: 15px 0 15px;
+  margin-top: 5px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 30px rgba(0,0,0,.2);
+  box-sizing: border-box;
+  visibility: hidden;
+  opacity: 0;
+  transform: translate(-50%, 20px);
+  transition: .3s;
+}
+.topraz > lii:hover .subraz {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.subraz aa {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  transition: .3s linear;
+}
+.subraz aa:hover {background: #e8e8e8;}
+
+
+
+
