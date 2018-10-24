@@ -2,8 +2,10 @@
 
 body {
   margin: 0;
-  background-image: url(https://1.bp.blogspot.com/-nh6VtV4dkC8/W17fx5ngCII/AAAAAAAAcAQ/AZhEQ9tc4BwVwoIZYs0Us0vvJwLihifFACLcBGAs/s1600/shutterstock_223313131.jpg);}
-
+  background-image: url(shutterstock_223313131.jpg);
+    height: 100vh;
+  position: relative;
+}
 body:before {
   content: "";
   position: absolute;
@@ -153,7 +155,6 @@ razion  aa {
   transition: .3s linear;
 }
 .subraz aa:hover {background: #e8e8e8;}
-
 
 
 

@@ -5,10 +5,10 @@
 
 body {
 	bacground-color: #FFFFFF;
-	background-image: url(bacground1.png);
+	background-image: url(background.png);
 	background-repeat:no-repeat;
 	background-position: center center;
-	background-size: 90% auto;
+	background-size: 100% auto;
 	height: 100vh;
 	position: relative;
 }
@@ -39,8 +39,9 @@ nav a {
 .topmenu > li > a {
   position: relative;
   padding: 10px 15px;
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 1.5em;
+  font-family: 'Muli',sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
   line-height: 1;
   letter-spacing: 3px;
 }
@@ -85,7 +86,7 @@ nav a {
   transform: translate(-50%, 0);
 }
 .submenu a {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Muli',sans-serif;
   font-size: 18px;
   letter-spacing: 1px;
   padding: 5px 10px;
