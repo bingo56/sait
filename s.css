@@ -4,11 +4,10 @@ li{
 }
 
 body {
-	bacground-color: #FFFFFF;
-	background-image: url(Maket.png);
-	background-repeat:no-repeat;
-	background-position: center center;
-	background-size: 100% auto;
+
+  margin: 0;
+	background-image: url(fon.png);
+	
 	height: 100vh;
 	position: relative;
 }
@@ -70,6 +69,7 @@ nav
 {
 
   text-align: center;
+
   padding: 40px 0 0;
 }
 nav ul {
